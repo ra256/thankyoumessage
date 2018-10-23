@@ -1,11 +1,7 @@
-<!doctype html>
-<html lang="en">
+@extends('layouts.default')
 
-@include('includes.head')
+@section('content')
 
-<body>
-<h1>Hello, world!</h1>
+    <h1>Hello, world!</h1>
 
-@include('includes.jsfooter')
-</body>
-</html>
+@endsection
